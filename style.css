@@ -46,6 +46,13 @@
   font-size: 16px;
 }
 
+/* Tablet */
+@media (min-width: 456px) {
+  .judul {
+    margin-top: 10%;
+    /* font-size: 40px; */
+  }
+}
 /* DESKTOP */
 @media (min-width: 992px) {
   /* Navbar */
