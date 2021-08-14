@@ -65,6 +65,20 @@
   color: #ee964b;
 }
 
+.card {
+  filter: drop-shadow(2px 3px 20px rgba(0, 0, 0, 0.15));
+  border-radius: 10px;
+}
+
+.card-text {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: #f95738;
+}
+
 /* Tablet */
 @media (min-width: 456px) {
   .judul {
@@ -123,5 +137,9 @@
 
   .subjudul-paket {
     font-size: 22;
+  }
+
+  .card-text {
+    font-size: 18px;
   }
 }
