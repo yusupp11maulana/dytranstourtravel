@@ -46,6 +46,25 @@
   font-size: 16px;
 }
 
+/* Paket */
+.judul-paket {
+  font-family: Kreon;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  color: #f95738;
+  text-transform: uppercase;
+}
+
+.subjudul-paket {
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ee964b;
+}
+
 /* Tablet */
 @media (min-width: 456px) {
   .judul {
@@ -96,5 +115,13 @@
 
   .btn-dark {
     font-size: 18px;
+  }
+
+  .judul-paket {
+    font-size: 26px;
+  }
+
+  .subjudul-paket {
+    font-size: 22;
   }
 }
