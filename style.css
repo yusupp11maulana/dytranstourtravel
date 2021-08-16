@@ -92,6 +92,38 @@
   color: #f95738;
 }
 
+.fas {
+  color: #f4d35e;
+  font-size: 18px;
+}
+
+.judul-paketm {
+  font-family: "Ubuntu";
+  color: #ee964b;
+  font-size: 18px;
+}
+
+.isi-paketm {
+  font-family: "ABeeZee";
+  font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+  height: 30px;
+  background-color: #413f3f;
+  padding-top: 1.5%;
+}
+
+.tulisanfoot {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 10px;
+}
+
+.logokaryo {
+  width: 12%;
+}
 /* Tablet */
 @media (min-width: 456px) {
   .judul {
@@ -154,5 +186,25 @@
 
   .card-text {
     font-size: 18px;
+  }
+
+  .fas {
+    font-size: 20px;
+  }
+
+  .isi-paketm {
+    font-size: 16px;
+  }
+
+  .tulisanfoot {
+    font-size: 16px;
+  }
+
+  .logokaryo {
+    width: 5%;
+  }
+
+  footer {
+    padding-top: 0%;
   }
 }
